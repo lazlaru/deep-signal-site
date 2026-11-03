@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deep Signal</title>
+<meta name="description" content="A deep-sea submersible game for Mac. Four wrecks, and one signal.">
+<style>
+  :root { color-scheme: dark; --bg: #010a10; --fg: #dcf1f7; --muted: #8fb2bd; --accent: #6fe2ff; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 400 18px/1.6 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 56px max(16px, env(safe-area-inset-right)) 64px max(16px, env(safe-area-inset-left)); }
+  h1 { font-weight: 200; font-size: 36px; line-height: 1.2; letter-spacing: .08em; color: #fff; margin: 0 0 6px; }
+  h2 { font: 600 13px/1.3 ui-monospace, Menlo, monospace; letter-spacing: .16em; text-transform: uppercase; color: var(--accent); margin: 32px 0 6px; }
+  .meta { color: var(--muted); margin: 0 0 24px; }
+  a { color: var(--accent); }
+  kbd { font: 600 13px ui-monospace, Menlo, monospace; border: 1px solid rgba(180,235,250,.4); border-radius: 5px; padding: 1px 7px; background: rgba(255,255,255,.06); }
+  dt { font-weight: 600; color: #fff; margin-top: 14px; }
+  dd { margin: 2px 0 0; }
+  footer { margin-top: 40px; color: var(--muted); font-size: 15px; }
+  main { max-width: 860px; text-align: center; }
+  .icon { width: 128px; height: 128px; }
+  p.lede { max-width: 560px; margin: 0 auto 28px; }
+  .shots { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 28px 0; }
+  .shots img { width: 100%; height: auto; display: block; border-radius: 8px; }
+  @media (max-width: 560px) { .shots { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<main>
+  <img class="icon" src="img/icon.png" alt="" width="128" height="128">
+  <h1>Deep Signal</h1>
+  <p class="meta">A game for Mac by LD Clinton · Coming to the Mac App Store</p>
+  <p class="lede">Something on the sea floor has been calling every forty seconds for eleven years. Fly a submersible down to four very different wrecks, bring up what you can, and find out what it wants.</p>
+  <div class="shots">
+    <img src="img/2-reef.jpg" alt="The yellow submersible over a sunlit Caribbean reef, with a shark in the distance" loading="lazy">
+    <img src="img/3-titanic.jpg" alt="The submersible hovering over the bow of the Titanic" loading="lazy">
+    <img src="img/4-ice.jpg" alt="A glowing guideline leading out of a tunnel melted through an iceberg" loading="lazy">
+    <img src="img/5-trench.jpg" alt="A sonar wave passing over a wreck deep in a trench" loading="lazy">
+  </div>
+  <p><a href="support.html">Support</a> · <a href="privacy.html">Privacy Policy</a></p>
+  <footer>Copyright © 2026 LD Clinton. All rights reserved.</footer>
+</main>
+</body>
+</html>
