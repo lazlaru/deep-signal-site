@@ -23,14 +23,22 @@
   .shots { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 28px 0; }
   .shots img { width: 100%; height: auto; display: block; border-radius: 8px; }
   @media (max-width: 560px) { .shots { grid-template-columns: 1fr; } }
+  .store { display: inline-flex; align-items: center; gap: 10px; margin: 0 auto 8px; padding: 11px 22px; border-radius: 12px; background: #fff; color: #000; text-decoration: none; font-weight: 600; font-size: 17px; line-height: 1.2; text-align: left; }
+  .store small { display: block; font-weight: 400; font-size: 12px; }
+  .store svg { width: 26px; height: 26px; flex: none; }
+  .store:hover, .store:focus-visible { background: var(--accent); }
 </style>
 </head>
 <body>
 <main>
   <img class="icon" src="img/icon.png" alt="" width="128" height="128">
   <h1>Deep Signal</h1>
-  <p class="meta">A game for Mac by LD Clinton · Coming to the Mac App Store</p>
+  <p class="meta">A game for Mac by LD Clinton</p>
   <p class="lede">Something on the sea floor has been calling every forty seconds for eleven years. Fly a submersible down to four very different wrecks, bring up what you can, and find out what it wants.</p>
+  <a class="store" href="https://apps.apple.com/app/deep-signal-salvage-dive/id6830315750">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.37 12.6c-.02-2.3 1.88-3.4 1.96-3.46-1.07-1.56-2.73-1.77-3.32-1.8-1.41-.14-2.76.83-3.47.83-.72 0-1.82-.81-2.99-.79-1.54.02-2.96.9-3.75 2.27-1.6 2.78-.41 6.89 1.15 9.14.76 1.1 1.67 2.34 2.86 2.3 1.15-.05 1.58-.74 2.97-.74 1.38 0 1.77.74 2.98.72 1.23-.02 2.01-1.12 2.76-2.23.87-1.28 1.23-2.52 1.25-2.58-.03-.01-2.39-.92-2.4-3.66zM14.1 5.86c.63-.77 1.06-1.83.94-2.89-.91.04-2.02.61-2.67 1.37-.58.67-1.1 1.76-.96 2.8 1.02.08 2.06-.52 2.69-1.28z"/></svg>
+    <span><small>Download on the</small>Mac App Store</span>
+  </a>
   <div class="shots">
     <img src="img/2-reef.jpg" alt="The yellow submersible over a sunlit Caribbean reef, with a shark in the distance" loading="lazy">
     <img src="img/3-titanic.jpg" alt="The submersible hovering over the bow of the Titanic" loading="lazy">
